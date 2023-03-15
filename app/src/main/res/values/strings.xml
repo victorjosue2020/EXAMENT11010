@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TL01E11010</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="hint_correo_electronico">Nota</string>
+    <string name="btn_guarda">Salvar Contacto</string>
+    <string name="btn_salvados">Contactos Salvados</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+    <string name="tv1">Paises</string>
+</resources>

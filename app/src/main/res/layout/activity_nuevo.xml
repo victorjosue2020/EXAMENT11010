@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#32FFFF00"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_x="23dp"
+            android:layout_y="127dp"
+            android:text="@string/tv1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/lv1"
+            style="@android:style/Widget.Material.ListView.DropDown"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_x="23dp"
+            android:layout_y="167dp" />
+
+        <TextView
+            android:id="@+id/viewNombre"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/hint_nombre"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombre"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/hint_telefono"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewTelefono"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/hint_correo_electronico"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtCorreoElectronico"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="#07FFFF00"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnGuarda"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_x="142dp"
+            android:layout_y="678dp"
+            android:background="#153491"
+            android:fadingEdge="none"
+            android:scrollbars="none"
+            android:text="@string/btn_guarda"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</LinearLayout>
